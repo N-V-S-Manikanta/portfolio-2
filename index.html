@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="color-scheme" content="dark">
-<meta name="theme-color" content="#000000">
+<meta name="color-scheme" content="light">
+<meta name="theme-color" content="#F9F9F9">
 <meta name="description" content="Naga Venkata Sai Manikanta Srighakollapu — Capability Development Specialist & ServiceNow, AWS, AI Developer with 400+ problems solved on CodeChef.">
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Naga Venkata Sai Manikanta Srighakollapu — Capability Development Specialist">
@@ -12,10 +12,10 @@
 <title>Naga Venkata Sai Manikanta Srighakollapu — Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
 /* ============================================================================
-   TORII — DARK DESIGN SYSTEM
+   TORII — LIGHT & DARK DESIGN SYSTEM
    Sampled brand palette: #F15D23 orange | #000000 black | #FFFFFF white
    ============================================================================ */
 :root{
@@ -219,7 +219,7 @@ img{display:block;max-width:100%;}
 
 .portrait{
   position:relative;
-  width:108px;height:108px;flex:0 0 108px;
+  width:145px;height:145px;flex:0 0 145px;
   z-index:1;
 }
 .portrait::before{
@@ -257,13 +257,17 @@ img{display:block;max-width:100%;}
   font-weight:400;font-size:34px;letter-spacing:.06em;
 }
 
-.who{flex:1 1 260px;min-width:0;position:relative;z-index:1;}
+.who{flex:1 1 280px;min-width:0;position:relative;z-index:1;}
 .who h1{
   position:relative;display:inline-block;margin:0;
   font-family:var(--display);
-  font-size:clamp(22px, 4vw, 30px);font-weight:300;
-  letter-spacing:.03em;line-height:1.25;
-  text-transform:uppercase;white-space:normal;word-break:break-word;color:var(--text);
+  font-size:clamp(24px, 4.5vw, 34px);font-weight:700;
+  letter-spacing:.02em;line-height:1.2;
+  text-transform:uppercase;white-space:normal;word-break:break-word;
+  color:var(--orange-ink);
+  background:linear-gradient(135deg, var(--orange-ink), var(--orange-hot));
+  -webkit-background-clip:text;
+  background-clip:text;
 }
 .who h1 .star{position:inline-block;vertical-align:middle;margin-left:6px;width:14px;height:14px;color:var(--orange);}
 .role{
@@ -842,19 +846,6 @@ img{display:block;max-width:100%;}
 
         <div id="statpanel" role="tabpanel" aria-labelledby="tab-codechef" tabindex="0">
           <dl class="figures" id="figures"></dl>
-          <p class="kicker gap" id="breakdownLabel">Problems Breakdown</p>
-
-          <div class="chart">
-            <svg class="donut" viewBox="0 0 42 42" role="img" aria-labelledby="donutTitle" aria-describedby="donutDesc">
-              <title id="donutTitle">Problems solved by difficulty</title>
-              <desc id="donutDesc">The same figures are listed beside the chart.</desc>
-              <circle cx="21" cy="21" r="15.915" stroke="var(--d-track)" stroke-dasharray="100 0"></circle>
-              <circle id="segEasy"   cx="21" cy="21" r="15.915" stroke="var(--d-easy)"   stroke-dasharray="0 100"></circle>
-              <circle id="segMedium" cx="21" cy="21" r="15.915" stroke="var(--d-medium)" stroke-dasharray="0 100"></circle>
-              <circle id="segHard"   cx="21" cy="21" r="15.915" stroke="var(--d-hard)"   stroke-dasharray="0 100"></circle>
-            </svg>
-            <ul class="key" id="key"></ul>
-          </div>
 
           <a class="outbound" id="profileLink" href="https://www.codechef.com/users/manikanta103" target="_blank" rel="noopener noreferrer">
             <span id="profileLinkText">View CodeChef Profile</span>
@@ -1047,36 +1038,6 @@ img{display:block;max-width:100%;}
           </div>
         </article>
 
-        <article class="item">
-          <div class="rail"><span class="num" data-num></span><span class="stem"></span></div>
-          <div class="item-body">
-            <h3>Smart Blind Stick Using IoT</h3>
-            <ul class="built"><li>Arduino UNO</li><li>Ultrasonic HC-SR04</li><li>IR Sensors</li></ul>
-            <p>Arduino-powered smart navigation device featuring HC-SR04 ultrasonic and IR sensors with NAND gate logic for real-time vibration, sound, and LED feedback.</p>
-            <ul class="feats">
-              <li>Obstacle detection</li><li>Vibration alerts</li><li>Buzzer feedback</li><li>Sensor logic</li>
-            </ul>
-            <a class="launch" href="https://github.com/manikanta1203" target="_blank" aria-label="Open Smart Blind Stick">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M19 14v5.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 3 19.5v-13A1.5 1.5 0 0 1 4.5 5H10"/></svg>
-            </a>
-          </div>
-        </article>
-
-        <article class="item">
-          <div class="rail"><span class="num" data-num></span><span class="stem"></span></div>
-          <div class="item-body">
-            <h3>Hotel Management App (ServiceNow)</h3>
-            <ul class="built"><li>ServiceNow</li><li>GlideScript</li><li>Flow Designer</li></ul>
-            <p>Custom ServiceNow platform application automating hotel room bookings, check-in/out workflows, catalog request handling, and real-time availability updates.</p>
-            <ul class="feats">
-              <li>Service Catalog</li><li>Automated Flow Designer</li><li>Business Rules</li><li>GlideScript logic</li>
-            </ul>
-            <a class="launch" href="assets/certs/ServiceNowCAD.pdf" target="_blank" aria-label="Open ServiceNow App">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-8.5 8.5"/><path d="M19 14v5.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 3 19.5v-13A1.5 1.5 0 0 1 4.5 5H10"/></svg>
-            </a>
-          </div>
-        </article>
-
       </div>
     </div>
   </section>
@@ -1216,15 +1177,6 @@ img{display:block;max-width:100%;}
       </div>
     </div>
   </section>
-
-  <!-- ==================== CLOSE ==================== -->
-  <footer class="close">
-    <span class="sig">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9"/></svg>
-      Manikanta Srighakollapu
-    </span>
-    <small>&copy; <span id="yr">2026</span> &middot; All rights reserved</small>
-  </footer>
 
 </main>
 
@@ -1383,7 +1335,7 @@ img{display:block;max-width:100%;}
     ? window.matchMedia('(prefers-reduced-motion: reduce)')
     : { matches: false };
 
-  var mode = 'dark';
+  var mode = 'light';
 
   function applyTheme(next) {
     mode = next;
