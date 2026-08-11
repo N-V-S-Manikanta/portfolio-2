@@ -23,61 +23,61 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
     html, body { background: #f1f5f9; color: var(--dark); font-family: var(--font-main); -webkit-print-color-adjust: exact; }
     body { display: flex; flex-direction: column; align-items: center; padding: 20px 0; gap: 20px; }
-    .resume-page { width: 210mm; height: 296mm; max-height: 296mm; overflow: hidden; background: #fff; padding: 12mm 14mm; position: relative; page-break-after: always; box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
-    .resume-header-card { background: #ffffff; border: 1px solid var(--gray-border); border-radius: var(--radius-card); padding: 16px 20px; margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; position: relative; overflow: hidden; box-shadow: var(--shadow-card); }
+    .resume-page { width: 210mm; height: 296mm; max-height: 296mm; overflow: hidden; background: #fff; padding: 13mm 15mm; position: relative; page-break-after: always; box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+    .resume-header-card { background: #ffffff; border: 1px solid var(--gray-border); border-radius: var(--radius-card); padding: 18px 22px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; position: relative; overflow: hidden; box-shadow: var(--shadow-card); }
     .resume-header-card::before { content: ''; position: absolute; top: 0; left: 0; width: 5px; height: 100%; background: var(--primary); }
-    .header-left { display: flex; align-items: center; gap: 16px; }
-    .avatar-container { width: 80px; height: 80px; border-radius: 50%; overflow: hidden; border: 3px solid #fff; box-shadow: 0 3px 8px rgba(0,0,0,0.12); flex-shrink: 0; background: #f1f5f9; }
+    .header-left { display: flex; align-items: center; gap: 18px; }
+    .avatar-container { width: 84px; height: 84px; border-radius: 50%; overflow: hidden; border: 3px solid #fff; box-shadow: 0 3px 8px rgba(0,0,0,0.12); flex-shrink: 0; background: #f1f5f9; }
     .avatar-container img { width: 100%; height: 100%; object-fit: cover; object-position: top center; }
-    .user-details h1 { font-size: 19px; font-weight: 800; color: var(--dark); letter-spacing: -0.4px; line-height: 1.15; }
-    .user-details .role-title { font-size: 12.5px; font-weight: 700; color: var(--primary-dark); margin-top: 2px; margin-bottom: 4px; }
-    .user-details .location-text { font-size: 11px; font-weight: 500; color: var(--gray-muted); display: flex; align-items: center; gap: 4px; }
-    .header-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; max-width: 310px; justify-content: flex-end; }
-    .social-pill-link { display: flex; flex-direction: column; align-items: center; gap: 2px; text-decoration: none; color: var(--dark); font-size: 10px; font-weight: 600; }
-    .social-icon-wrapper { width: 26px; height: 26px; background: #fff; border: 1px solid var(--gray-border); border-radius: 5px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.04); }
-    .social-accent-bar { width: 12px; height: 2px; background: var(--primary); border-radius: 2px; margin-top: 1px; }
-    .resume-section-card { background: #fff; border: 1px solid var(--gray-border); border-radius: var(--radius-card); padding: 14px 18px; margin-bottom: 12px; box-shadow: var(--shadow-card); break-inside: avoid; }
-    .section-title-badge { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; }
-    .section-icon-circle { width: 24px; height: 24px; border-radius: 50%; background: var(--primary); color: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-    .section-title-badge h2 { font-size: 12.5px; font-weight: 800; color: var(--dark); text-transform: uppercase; letter-spacing: 0.5px; }
-    .summary-text { font-size: 11.5px; line-height: 1.6; color: var(--dark-muted); }
-    .split-coding-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
-    .sub-header-orange { font-size: 11px; font-weight: 700; color: var(--primary-dark); margin-top: 6px; margin-bottom: 4px; }
-    .languages-text { font-size: 11.5px; font-weight: 600; color: var(--dark); }
-    .concepts-pills-wrap { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 4px; }
-    .concept-pill { background: var(--gray-light); border: 1px solid var(--gray-border); border-radius: 4px; padding: 4px 7px; font-size: 9.5px; font-weight: 600; }
-    .coding-col-header { font-size: 11px; font-weight: 800; color: var(--dark); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 8px; }
-    .platform-section { margin-bottom: 6px; }
-    .platform-name-underline { font-size: 10.5px; font-weight: 700; color: var(--dark); padding-bottom: 2px; margin-bottom: 4px; border-bottom: 2px solid var(--primary); display: inline-block; }
-    .stats-grid-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-bottom: 0; }
-    .stat-box { background: var(--gray-light); border-radius: 5px; padding: 5px 3px; text-align: center; border: 1px solid var(--gray-border); }
-    .stat-box .stat-label { font-size: 8px; font-weight: 700; color: var(--gray-muted); text-transform: uppercase; }
-    .stat-box .stat-val { font-size: 12px; font-weight: 800; color: var(--dark); margin-top: 1px; }
+    .user-details h1 { font-size: 20.5px; font-weight: 800; color: var(--dark); letter-spacing: -0.4px; line-height: 1.15; }
+    .user-details .role-title { font-size: 13.5px; font-weight: 700; color: var(--primary-dark); margin-top: 3px; margin-bottom: 5px; }
+    .user-details .location-text { font-size: 11.5px; font-weight: 500; color: var(--gray-muted); display: flex; align-items: center; gap: 5px; }
+    .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; max-width: 320px; justify-content: flex-end; }
+    .social-pill-link { display: flex; flex-direction: column; align-items: center; gap: 2px; text-decoration: none; color: var(--dark); font-size: 10.5px; font-weight: 600; }
+    .social-icon-wrapper { width: 28px; height: 28px; background: #fff; border: 1px solid var(--gray-border); border-radius: 6px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(0,0,0,0.04); }
+    .social-accent-bar { width: 14px; height: 2.5px; background: var(--primary); border-radius: 2px; margin-top: 2px; }
+    .resume-section-card { background: #fff; border: 1px solid var(--gray-border); border-radius: var(--radius-card); padding: 16px 20px; margin-bottom: 14px; box-shadow: var(--shadow-card); break-inside: avoid; }
+    .section-title-badge { display: flex; align-items: center; gap: 9px; margin-bottom: 11px; }
+    .section-icon-circle { width: 26px; height: 26px; border-radius: 50%; background: var(--primary); color: #fff; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .section-title-badge h2 { font-size: 13.5px; font-weight: 800; color: var(--dark); text-transform: uppercase; letter-spacing: 0.5px; }
+    .summary-text { font-size: 12.5px; line-height: 1.65; color: var(--dark-muted); }
+    .split-coding-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .sub-header-orange { font-size: 11.5px; font-weight: 700; color: var(--primary-dark); margin-top: 6px; margin-bottom: 4px; }
+    .languages-text { font-size: 12.5px; font-weight: 600; color: var(--dark); }
+    .concepts-pills-wrap { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+    .concept-pill { background: var(--gray-light); border: 1px solid var(--gray-border); border-radius: 5px; padding: 5px 9px; font-size: 10.5px; font-weight: 600; }
+    .coding-col-header { font-size: 11.5px; font-weight: 800; color: var(--dark); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 9px; }
+    .platform-section { margin-bottom: 8px; }
+    .platform-name-underline { font-size: 11px; font-weight: 700; color: var(--dark); padding-bottom: 2px; margin-bottom: 5px; border-bottom: 2px solid var(--primary); display: inline-block; }
+    .stats-grid-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 0; }
+    .stat-box { background: var(--gray-light); border-radius: 6px; padding: 6px 4px; text-align: center; border: 1px solid var(--gray-border); }
+    .stat-box .stat-label { font-size: 8.5px; font-weight: 700; color: var(--gray-muted); text-transform: uppercase; }
+    .stat-box .stat-val { font-size: 13px; font-weight: 800; color: var(--dark); margin-top: 2px; }
     .tech-rows-container { display: flex; flex-direction: column; gap: 0; }
-    .tech-row { display: grid; grid-template-columns: 130px 1fr; align-items: center; padding: 6px 0; border-bottom: 1px solid #f1f5f9; }
-    .tech-category-label { font-size: 11px; font-weight: 700; color: var(--primary-dark); }
-    .tech-items-text { font-size: 11px; font-weight: 500; color: var(--dark-muted); line-height: 1.4; }
+    .tech-row { display: grid; grid-template-columns: 140px 1fr; align-items: center; padding: 8px 0; border-bottom: 1px solid #f1f5f9; }
+    .tech-category-label { font-size: 12px; font-weight: 700; color: var(--primary-dark); }
+    .tech-items-text { font-size: 12px; font-weight: 500; color: var(--dark-muted); line-height: 1.45; }
     .tech-bullet-dot { color: var(--dark-muted); margin: 0 4px; font-weight: bold; }
-    .ai-skills-grid { display: flex; flex-wrap: wrap; gap: 6px; }
-    .ai-skill-badge { background: var(--primary-light); border: 1px solid var(--primary-border); color: var(--primary-dark); border-radius: 5px; padding: 4px 9px; font-size: 10px; font-weight: 600; }
-    .projects-stack { display: flex; flex-direction: column; gap: 8px; }
-    .project-item-card { background: #fff; border: 1px solid var(--gray-border); border-left: 3.5px solid var(--primary); border-radius: 6px; padding: 9px 13px; }
-    .project-header-line { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px; }
-    .project-title { font-size: 12px; font-weight: 800; color: var(--dark); }
-    .project-tech-line { font-size: 10px; font-weight: 700; color: var(--primary-dark); margin-bottom: 3px; }
-    .project-desc { font-size: 10.5px; color: var(--dark-muted); line-height: 1.4; margin-bottom: 2px; }
-    .project-features { font-size: 10px; color: var(--dark-muted); }
-    .ach-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 7px; }
-    .ach-card { background: #fff; border-radius: 8px; padding: 8px 10px; display: flex; align-items: flex-start; gap: 8px; position: relative; overflow: hidden; border: 1px solid var(--gray-border); box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
+    .ai-skills-grid { display: flex; flex-wrap: wrap; gap: 7px; }
+    .ai-skill-badge { background: var(--primary-light); border: 1px solid var(--primary-border); color: var(--primary-dark); border-radius: 6px; padding: 5px 11px; font-size: 11px; font-weight: 600; }
+    .projects-stack { display: flex; flex-direction: column; gap: 10px; }
+    .project-item-card { background: #fff; border: 1px solid var(--gray-border); border-left: 4px solid var(--primary); border-radius: 7px; padding: 11px 15px; }
+    .project-header-line { display: flex; align-items: center; justify-content: space-between; margin-bottom: 3px; }
+    .project-title { font-size: 13px; font-weight: 800; color: var(--dark); }
+    .project-tech-line { font-size: 11px; font-weight: 700; color: var(--primary-dark); margin-bottom: 4px; }
+    .project-desc { font-size: 11.5px; color: var(--dark-muted); line-height: 1.48; margin-bottom: 3px; }
+    .project-features { font-size: 11px; color: var(--dark-muted); }
+    .ach-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .ach-card { background: #fff; border-radius: 8px; padding: 10px 12px; display: flex; align-items: flex-start; gap: 9px; position: relative; overflow: hidden; border: 1px solid var(--gray-border); box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
     .ach-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2.5px; background: linear-gradient(90deg, var(--primary), var(--primary-dark)); }
-    .ach-card-icon { width: 26px; height: 26px; background: var(--primary-light); border: 1px solid var(--primary-border); border-radius: 5px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--primary-dark); }
+    .ach-card-icon { width: 28px; height: 28px; background: var(--primary-light); border: 1px solid var(--primary-border); border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--primary-dark); }
     .ach-card-body { flex: 1; min-width: 0; }
-    .ach-card-title { font-size: 10.5px; font-weight: 800; color: var(--dark); margin-top: 1px; }
-    .ach-card-desc { font-size: 9.5px; color: var(--gray-muted); line-height: 1.3; margin-top: 1px; }
+    .ach-card-title { font-size: 11.5px; font-weight: 800; color: var(--dark); margin-top: 1px; }
+    .ach-card-desc { font-size: 10.5px; color: var(--gray-muted); line-height: 1.35; margin-top: 1px; }
     .page-footer { position: absolute; bottom: 8mm; left: 0; right: 0; text-align: center; font-size: 9.5px; font-weight: 600; color: var(--gray-muted); }
     @media print {
       body { background: #fff !important; padding: 0 !important; }
-      .resume-page { width: 210mm !important; height: 296mm !important; max-height: 296mm !important; box-shadow: none !important; padding: 12mm 14mm !important; margin: 0 !important; overflow: hidden !important; page-break-after: always !important; }
+      .resume-page { width: 210mm !important; height: 296mm !important; max-height: 296mm !important; box-shadow: none !important; padding: 13mm 15mm !important; margin: 0 !important; overflow: hidden !important; page-break-after: always !important; }
       .page-footer { display: none !important; }
       @page { size: A4 portrait; margin: 0mm; }
     }
@@ -97,7 +97,7 @@
           <h1>Manikanta Srighakollapu</h1>
           <div class="role-title">Capability Development Specialist</div>
           <div class="location-text">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             <span>Surampalem, Andhra Pradesh, India</span>
           </div>
         </div>
@@ -130,7 +130,7 @@
     <!-- SUMMARY -->
     <div class="resume-section-card">
       <div class="section-title-badge">
-        <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div>
+        <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div>
         <h2>PROFESSIONAL SUMMARY</h2>
       </div>
       <p class="summary-text">Capability Development Specialist at Torii Minds, Certified ServiceNow CAD &amp; CSA, AWS Certified Cloud Practitioner, and Creator of ToriiMinds Multi-AI Learning Agents. Active competitive problem solver with 90+ LeetCode problems solved (50 Days Badge), 400+ CodeChef problems solved (Bronze 500+ Badge across dual accounts), and dedicated developer of AI Agentic Coding workflows.</p>
@@ -141,12 +141,12 @@
       <div class="split-coding-stats">
         <div class="coding-column">
           <div class="section-title-badge" style="margin-bottom: 6px;">
-            <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
+            <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
             <h2>TECHNICAL SKILLS</h2>
           </div>
           <div class="sub-header-orange">Languages Known</div>
           <div class="languages-text">C | C++ | Java | HTML5 | CSS3 | JavaScript | Python | SQL</div>
-          <div class="sub-header-orange" style="margin-top: 8px;">Platforms &amp; Concepts</div>
+          <div class="sub-header-orange" style="margin-top: 10px;">Platforms &amp; Concepts</div>
           <div class="concepts-pills-wrap">
             <span class="concept-pill">ServiceNow ITSM</span><span class="concept-pill">ServiceNow CSA &amp; CAD</span><span class="concept-pill">AWS EC2 &amp; S3</span><span class="concept-pill">REST APIs</span><span class="concept-pill">Flow Designer</span><span class="concept-pill">GlideScript</span><span class="concept-pill">Node.js &amp; Express</span><span class="concept-pill">Flutter</span>
           </div>
@@ -197,7 +197,7 @@
     <!-- TECHNOLOGIES -->
     <div class="resume-section-card">
       <div class="section-title-badge">
-        <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+        <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
         <h2>TECHNOLOGIES &amp; PLATFORMS</h2>
       </div>
       <div class="tech-rows-container">
@@ -213,7 +213,7 @@
           <div class="tech-category-label">Cloud &amp; Database</div>
           <div class="tech-items-text">AWS EC2 &amp; S3 <span class="tech-bullet-dot">•</span> IAM Roles <span class="tech-bullet-dot">•</span> CloudWatch <span class="tech-bullet-dot">•</span> Snowflake <span class="tech-bullet-dot">•</span> Oracle Cloud</div>
         </div>
-        <div class="tech-row">
+        <div class="tech-row" style="border-bottom: none;">
           <div class="tech-category-label">Tools &amp; ITSM</div>
           <div class="tech-items-text">ServiceNow CAD &amp; CSA <span class="tech-bullet-dot">•</span> Git &amp; GitHub <span class="tech-bullet-dot">•</span> Postman <span class="tech-bullet-dot">•</span> VS Code <span class="tech-bullet-dot">•</span> Arduino IDE</div>
         </div>
@@ -223,7 +223,7 @@
     <!-- AI SKILLS -->
     <div class="resume-section-card" style="margin-bottom: 0;">
       <div class="section-title-badge">
-        <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="15" y1="9" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg></div>
+        <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="4" y="4" width="16" height="16" rx="2"></rect><rect x="9" y="9" width="6" height="6"></rect><line x1="9" y1="1" x2="9" y2="4"></line><line x1="15" y1="1" x2="15" y2="4"></line><line x1="9" y1="20" x2="9" y2="23"></line><line x1="15" y1="20" x2="15" y2="23"></line><line x1="20" y1="9" x2="23" y2="9"></line><line x1="15" y1="9" x2="23" y2="15"></line><line x1="1" y1="9" x2="4" y2="9"></line><line x1="1" y1="15" x2="4" y2="15"></line></svg></div>
         <h2>AI SKILLS &amp; AGENTS</h2>
       </div>
       <div class="ai-skills-grid">
@@ -247,14 +247,14 @@
     <!-- WORK EXPERIENCE -->
     <div class="resume-section-card">
       <div class="section-title-badge">
-        <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>
+        <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>
         <h2>WORK EXPERIENCE</h2>
       </div>
       <div class="projects-stack">
         <div class="project-item-card">
           <div class="project-header-line">
             <span class="project-title">Capability Development Specialist — Torii Minds</span>
-            <span style="font-size: 11px; font-weight: 700; color: var(--gray-muted);">2024 – Present</span>
+            <span style="font-size: 11.5px; font-weight: 700; color: var(--gray-muted);">2024 – Present</span>
           </div>
           <div class="project-tech-line">ToriiMinds Multi-AI Agents • ServiceNow ITSM • AI Architectures • Cloud Solutions</div>
           <p class="project-desc">Leading capability development initiatives and engineering AI-driven enterprise developer workflows. Creator of ToriiMinds Multi-AI Learning Agents platform for autonomous learning roadmaps and adaptive quizzes across 5+ technology tracks.</p>
@@ -264,7 +264,7 @@
         <div class="project-item-card">
           <div class="project-header-line">
             <span class="project-title">ServiceNow Intern — Technical Hub</span>
-            <span style="font-size: 11px; font-weight: 700; color: var(--gray-muted);">Jun 2024 – Mar 2025</span>
+            <span style="font-size: 11.5px; font-weight: 700; color: var(--gray-muted);">Jun 2024 – Mar 2025</span>
           </div>
           <div class="project-tech-line">ServiceNow ITSM • Incident Management • Service Catalog • Flow Designer • GlideScript</div>
           <p class="project-desc">Worked extensively on ServiceNow ITSM modules including Incident Management, Problem Management, and Service Catalog automation. Configured custom forms, business rules, tables, and catalog items supporting enterprise service workflows.</p>
@@ -276,7 +276,7 @@
     <!-- FEATURED PROJECTS (3 PROJECTS) -->
     <div class="resume-section-card">
       <div class="section-title-badge">
-        <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>
+        <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>
         <h2>FEATURED PROJECTS</h2>
       </div>
       <div class="projects-stack">
@@ -312,47 +312,47 @@
     <!-- ACHIEVEMENTS & CERTIFICATIONS -->
     <div class="resume-section-card" style="margin-bottom: 0;">
       <div class="section-title-badge">
-        <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
+        <div class="section-icon-circle"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></svg></div>
         <h2>ACHIEVEMENTS &amp; CERTIFICATIONS</h2>
       </div>
       <div class="ach-grid">
         <div class="ach-card">
-          <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
+          <div class="ach-card-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
           <div class="ach-card-body">
             <div class="ach-card-title">50 Days LeetCode Badge</div>
             <div class="ach-card-desc">Earned 50 Days Problem Solving Badge with 90+ problems solved on LeetCode.</div>
           </div>
         </div>
         <div class="ach-card">
-          <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
+          <div class="ach-card-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg></div>
           <div class="ach-card-body">
             <div class="ach-card-title">400+ CodeChef (Bronze Badge)</div>
             <div class="ach-card-desc">Solved 400+ problems across dual competitive accounts.</div>
           </div>
         </div>
         <div class="ach-card">
-          <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
+          <div class="ach-card-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
           <div class="ach-card-body">
             <div class="ach-card-title">ServiceNow CAD &amp; CSA</div>
             <div class="ach-card-desc">Certified Application Developer &amp; System Administrator from ServiceNow.</div>
           </div>
         </div>
         <div class="ach-card">
-          <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
+          <div class="ach-card-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
           <div class="ach-card-body">
             <div class="ach-card-title">AWS Certified Cloud Practitioner</div>
             <div class="ach-card-desc">AWS Certified Cloud Practitioner Credential from Amazon Web Services.</div>
           </div>
         </div>
         <div class="ach-card">
-          <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
+          <div class="ach-card-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
           <div class="ach-card-body">
             <div class="ach-card-title">IBM Prompt Engineering</div>
             <div class="ach-card-desc">IBM Prompt Engineering Specialization Certification.</div>
           </div>
         </div>
         <div class="ach-card">
-          <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
+          <div class="ach-card-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
           <div class="ach-card-body">
             <div class="ach-card-title">JPMorgan Chase Software Eng</div>
             <div class="ach-card-desc">JPMorgan Chase &amp; Co. Software Engineering Certification.</div>
