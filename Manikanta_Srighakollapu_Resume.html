@@ -52,7 +52,7 @@
     .stats-grid-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 5px; margin-bottom: 0; }
     .stat-box { background: var(--gray-light); border-radius: 5px; padding: 5px 3px; text-align: center; border: 1px solid var(--gray-border); }
     .stat-box .stat-label { font-size: 8px; font-weight: 700; color: var(--gray-muted); text-transform: uppercase; }
-    .stat-box .stat-val { font-size: 12.5px; font-weight: 800; color: var(--dark); margin-top: 1px; }
+    .stat-box .stat-val { font-size: 12px; font-weight: 800; color: var(--dark); margin-top: 1px; }
     .tech-rows-container { display: flex; flex-direction: column; gap: 0; }
     .tech-row { display: grid; grid-template-columns: 130px 1fr; align-items: center; padding: 6px 0; border-bottom: 1px solid #f1f5f9; }
     .tech-category-label { font-size: 11px; font-weight: 700; color: var(--primary-dark); }
@@ -60,20 +60,20 @@
     .tech-bullet-dot { color: var(--dark-muted); margin: 0 4px; font-weight: bold; }
     .ai-skills-grid { display: flex; flex-wrap: wrap; gap: 6px; }
     .ai-skill-badge { background: var(--primary-light); border: 1px solid var(--primary-border); color: var(--primary-dark); border-radius: 5px; padding: 4px 9px; font-size: 10px; font-weight: 600; }
-    .projects-stack { display: flex; flex-direction: column; gap: 9px; }
-    .project-item-card { background: #fff; border: 1px solid var(--gray-border); border-left: 3.5px solid var(--primary); border-radius: 6px; padding: 10px 14px; }
+    .projects-stack { display: flex; flex-direction: column; gap: 8px; }
+    .project-item-card { background: #fff; border: 1px solid var(--gray-border); border-left: 3.5px solid var(--primary); border-radius: 6px; padding: 9px 13px; }
     .project-header-line { display: flex; align-items: center; justify-content: space-between; margin-bottom: 2px; }
-    .project-title { font-size: 12.5px; font-weight: 800; color: var(--dark); }
-    .project-tech-line { font-size: 10.5px; font-weight: 700; color: var(--primary-dark); margin-bottom: 4px; }
-    .project-desc { font-size: 11px; color: var(--dark-muted); line-height: 1.45; margin-bottom: 3px; }
-    .project-features { font-size: 10.5px; color: var(--dark-muted); }
+    .project-title { font-size: 12px; font-weight: 800; color: var(--dark); }
+    .project-tech-line { font-size: 10px; font-weight: 700; color: var(--primary-dark); margin-bottom: 3px; }
+    .project-desc { font-size: 10.5px; color: var(--dark-muted); line-height: 1.4; margin-bottom: 2px; }
+    .project-features { font-size: 10px; color: var(--dark-muted); }
     .ach-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 7px; }
-    .ach-card { background: #fff; border-radius: 8px; padding: 9px 11px; display: flex; align-items: flex-start; gap: 8px; position: relative; overflow: hidden; border: 1px solid var(--gray-border); box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
+    .ach-card { background: #fff; border-radius: 8px; padding: 8px 10px; display: flex; align-items: flex-start; gap: 8px; position: relative; overflow: hidden; border: 1px solid var(--gray-border); box-shadow: 0 1px 3px rgba(0,0,0,0.03); }
     .ach-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2.5px; background: linear-gradient(90deg, var(--primary), var(--primary-dark)); }
-    .ach-card-icon { width: 28px; height: 28px; background: var(--primary-light); border: 1px solid var(--primary-border); border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--primary-dark); }
+    .ach-card-icon { width: 26px; height: 26px; background: var(--primary-light); border: 1px solid var(--primary-border); border-radius: 5px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; color: var(--primary-dark); }
     .ach-card-body { flex: 1; min-width: 0; }
-    .ach-card-title { font-size: 11px; font-weight: 800; color: var(--dark); margin-top: 1px; }
-    .ach-card-desc { font-size: 10px; color: var(--gray-muted); line-height: 1.35; margin-top: 1px; }
+    .ach-card-title { font-size: 10.5px; font-weight: 800; color: var(--dark); margin-top: 1px; }
+    .ach-card-desc { font-size: 9.5px; color: var(--gray-muted); line-height: 1.3; margin-top: 1px; }
     .page-footer { position: absolute; bottom: 8mm; left: 0; right: 0; text-align: center; font-size: 9.5px; font-weight: 600; color: var(--gray-muted); }
     @media print {
       body { background: #fff !important; padding: 0 !important; }
@@ -95,7 +95,7 @@
         </div>
         <div class="user-details">
           <h1>Manikanta Srighakollapu</h1>
-          <div class="role-title">Capability Development Specialist &amp; Full Stack Developer</div>
+          <div class="role-title">Capability Development Specialist</div>
           <div class="location-text">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#64748b" stroke-width="2.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
             <span>Surampalem, Andhra Pradesh, India</span>
@@ -133,7 +133,7 @@
         <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div>
         <h2>PROFESSIONAL SUMMARY</h2>
       </div>
-      <p class="summary-text">Capability Development Specialist at Torii Minds, Certified ServiceNow CAD &amp; CSA, AWS AI Certified Practitioner, and Creator of ToriiMinds Multi-AI Learning Agents. Proven track record in competitive problem solving with 400+ LeetCode problems solved (Knight Rank, 1750+ rating, 50-Day Badge), 400+ CodeChef problems solved (Bronze 500+ Badge across dual accounts), and active contributor to AI Agentic Coding workflows.</p>
+      <p class="summary-text">Capability Development Specialist at Torii Minds, Certified ServiceNow CAD &amp; CSA, AWS Certified Cloud Practitioner, and Creator of ToriiMinds Multi-AI Learning Agents. Active competitive problem solver with 90+ LeetCode problems solved (50 Days Badge), 400+ CodeChef problems solved (Bronze 500+ Badge across dual accounts), and dedicated developer of AI Agentic Coding workflows.</p>
     </div>
 
     <!-- SKILLS & PROBLEM SOLVING -->
@@ -160,15 +160,15 @@
             <div class="stats-grid-row">
               <div class="stat-box">
                 <div class="stat-label">Solved</div>
-                <div class="stat-val">400+</div>
+                <div class="stat-val">90+</div>
               </div>
               <div class="stat-box">
-                <div class="stat-label">Rating</div>
-                <div class="stat-val">1750+</div>
+                <div class="stat-label">Badge</div>
+                <div class="stat-val">50 Days</div>
               </div>
               <div class="stat-box">
-                <div class="stat-label">Rank</div>
-                <div class="stat-val">Knight</div>
+                <div class="stat-label">Status</div>
+                <div class="stat-val">Active</div>
               </div>
             </div>
           </div>
@@ -273,7 +273,7 @@
       </div>
     </div>
 
-    <!-- FEATURED PROJECTS -->
+    <!-- FEATURED PROJECTS (3 PROJECTS) -->
     <div class="resume-section-card">
       <div class="section-title-badge">
         <div class="section-icon-circle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg></div>
@@ -297,6 +297,15 @@
           <p class="project-desc">Centralized digital marketing and design workspace platform streamlining team initiative management, creative workflows, and digital project asset presentation (Live: tag.ncet.co.in).</p>
           <div class="project-features"><strong>Highlights:</strong> Creative Asset Management • Workflow Automation • Team Workspace</div>
         </div>
+
+        <div class="project-item-card">
+          <div class="project-header-line">
+            <span class="project-title">Sports Inventory Management System (Salesforce)</span>
+          </div>
+          <div class="project-tech-line">Salesforce Platform • Trailhead • CRM Configuration • Custom Objects &amp; Dashboards</div>
+          <p class="project-desc">Built a Salesforce application managing sports equipment inventory using custom objects and relationships. Implemented interactive dashboards and reports to track equipment availability and streamline inventory tracking.</p>
+          <div class="project-features"><strong>Highlights:</strong> Custom CRM Objects • Equipment Tracking Automation • Reporting Dashboards</div>
+        </div>
       </div>
     </div>
 
@@ -310,8 +319,8 @@
         <div class="ach-card">
           <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
           <div class="ach-card-body">
-            <div class="ach-card-title">400+ LeetCode (Knight Rank)</div>
-            <div class="ach-card-desc">Solved 400+ problems on LeetCode with 1750+ rating &amp; 50-Day Badge.</div>
+            <div class="ach-card-title">50 Days LeetCode Badge</div>
+            <div class="ach-card-desc">Earned 50 Days Problem Solving Badge with 90+ problems solved on LeetCode.</div>
           </div>
         </div>
         <div class="ach-card">
@@ -331,8 +340,8 @@
         <div class="ach-card">
           <div class="ach-card-icon"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="12" rx="2"/><path d="M8 20l4-2 4 2v-4H8v4z"/></svg></div>
           <div class="ach-card-body">
-            <div class="ach-card-title">AWS Certified AI Practitioner</div>
-            <div class="ach-card-desc">AWS Certified AI Practitioner Credential from Amazon Web Services.</div>
+            <div class="ach-card-title">AWS Certified Cloud Practitioner</div>
+            <div class="ach-card-desc">AWS Certified Cloud Practitioner Credential from Amazon Web Services.</div>
           </div>
         </div>
         <div class="ach-card">
