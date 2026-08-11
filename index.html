@@ -381,6 +381,28 @@ img{display:block;max-width:100%;}
 }
 .outbound:hover{background:var(--orange-hot);border-color:var(--orange-hot);}
 .outbound:focus-visible{outline:2px solid var(--white);outline-offset:2px;}
+
+.platform-stats-block{margin-bottom:20px;}
+.platform-title-row{margin-bottom:10px;}
+.platform-title-text{
+  font-family:var(--display);
+  font-size:16px;font-weight:600;
+  color:var(--text);margin:0;
+  display:inline-block;
+}
+.platform-red-line{
+  width:40px;height:3px;
+  background:var(--orange);
+  border-radius:2px;
+  margin-top:3px;
+}
+.stat-outbound{
+  display:inline-flex;align-items:center;gap:6px;
+  font-size:11px;font-weight:600;
+  color:var(--orange-ink);text-decoration:none;
+  margin-top:8px;transition:gap .2s ease;
+}
+.stat-outbound:hover{gap:9px;}
 .outbound svg{width:12px;height:12px;}
 
 .stacks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;}
@@ -839,17 +861,55 @@ img{display:block;max-width:100%;}
       </div>
       <div class="panel-body">
 
-        <div class="tabs" role="tablist" aria-label="Platforms">
-          <button class="tab" type="button" role="tab" id="tab-codechef" aria-controls="statpanel" aria-selected="true"  tabindex="0"  data-platform="codechef">CodeChef</button>
-          <button class="tab" type="button" role="tab" id="tab-leetcode" aria-controls="statpanel" aria-selected="false" tabindex="-1" data-platform="leetcode">LeetCode</button>
+        <!-- LeetCode Group -->
+        <div class="platform-stats-block">
+          <div class="platform-title-row">
+            <h3 class="platform-title-text">LeetCode</h3>
+            <div class="platform-red-line"></div>
+          </div>
+          <div class="figures">
+            <div class="figure">
+              <dt>SOLVED</dt>
+              <dd>50 Days</dd>
+            </div>
+            <div class="figure">
+              <dt>RATING</dt>
+              <dd>Active</dd>
+            </div>
+            <div class="figure">
+              <dt>RANK</dt>
+              <dd>Top Solver</dd>
+            </div>
+          </div>
+          <a class="stat-outbound" href="https://leetcode.com/u/saimanikantacm104/" target="_blank" rel="noopener noreferrer">
+            View LeetCode Profile
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px;"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
         </div>
 
-        <div id="statpanel" role="tabpanel" aria-labelledby="tab-codechef" tabindex="0">
-          <dl class="figures" id="figures"></dl>
-
-          <a class="outbound" id="profileLink" href="https://www.codechef.com/users/manikanta103" target="_blank" rel="noopener noreferrer">
-            <span id="profileLinkText">View CodeChef Profile</span>
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        <!-- CodeChef Group -->
+        <div class="platform-stats-block" style="margin-top:20px;">
+          <div class="platform-title-row">
+            <h3 class="platform-title-text">CodeChef</h3>
+            <div class="platform-red-line"></div>
+          </div>
+          <div class="figures">
+            <div class="figure">
+              <dt>SOLVED</dt>
+              <dd>400+</dd>
+            </div>
+            <div class="figure">
+              <dt>RATING</dt>
+              <dd>500+</dd>
+            </div>
+            <div class="figure">
+              <dt>RANK</dt>
+              <dd>Bronze ★</dd>
+            </div>
+          </div>
+          <a class="stat-outbound" href="https://www.codechef.com/users/manikanta103" target="_blank" rel="noopener noreferrer">
+            View CodeChef Profile
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:12px;height:12px;"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
           </a>
         </div>
 
